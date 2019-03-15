@@ -12,12 +12,9 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass --watch index.scss index.css",
-    "build": "parcel index.html",
-    "deploy": "gh-pages -d dist"
+    "sass": "node-sass --watch index.scss index.css"
   },
   "devDependencies": {
-    "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0"
   }
 }
