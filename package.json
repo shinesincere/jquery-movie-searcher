@@ -1,0 +1,23 @@
+{
+  "homepage": "https://shinesincere.github.io/jquery-movie-searcher",
+  "name": "jquery-movie-searcher",
+  "description": "jquery-based, movie-searching app",
+  "keywords": [
+    "jquery",
+    "movie",
+    "bootstrap"
+  ],
+  "author": "shine sincere",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass --watch index.scss index.css",
+    "build": "parcel index.html",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.11.0"
+  }
+}
